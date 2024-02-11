@@ -1,0 +1,1749 @@
+repo_name: hakanai/logging-log4j2
+report_id: 45c42d1d52e23952399c68c768f78c0c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:38:15+00:00'
+requested_by: rgoers
+provider: github
+branch: master
+detected_tools_count: 130
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hakanai/logging-log4j2
+  detection_source: Repo Metadata
+- name: Spring Cloud
+  description: Spring helps development teams everywhere build simple, portable,fast
+    and flexible JVM-based systems and applications.
+  website_url: https://spring.io/projects/spring-cloud
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5494/default_b403ef08976083aea6d4caf5a4f19f3325c751e5.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-samples/log4j-samples-flume-common/pom.xml
+  detection_source: log4j-samples/log4j-samples-flume-common/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2012-11-23 06:55:58.000000000 Z
+- name: ActiveMQ
+  description: A message broker written in Java together with a full JMS client
+  website_url: http://activemq.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-02-28 13:43:57.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-cassandra/src/test/resources/cassandra.yaml
+  detection_source: log4j-cassandra/src/test/resources/cassandra.yaml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2017-01-01 00:48:20.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: mattsicker
+  last_updated_on: 2014-03-30 18:07:43.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2010-05-13 06:31:04.000000000 Z
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-flume-ng/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2012-08-19 07:37:50.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-kafka/pom.xml
+  detection_source: log4j-kafka/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-28 19:54:02.000000000 Z
+- name: Liquibase
+  description: Easily track, version &amp; deploy database changes
+  website_url: https://www.liquibase.com
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-liquibase/pom.xml
+  detection_source: log4j-liquibase/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2015-06-13 20:37:08.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-mongodb2/pom.xml
+  detection_source: log4j-mongodb2/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-22 15:40:30.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/docker/docker-compose.yml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/docker/docker-compose.yml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: ZeroMQ
+  description: Fast, lightweight messaging library that allows you to design complex
+    communication system without much effort
+  website_url: http://zeromq.org/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1064/zeromq.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-jeromq/pom.xml
+  detection_source: log4j-jeromq/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-28 15:57:15.000000000 Z
+- name: Apache Flume
+  description: A service for collecting, aggregating, and moving large amounts of
+    log data
+  website_url: https://flume.apache.org
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4337/Flume.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/docker/docker-compose.yml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/docker/docker-compose.yml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2010-05-13 06:31:04.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-kubernetes/pom.xml
+  detection_source: log4j-kubernetes/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.2.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-02-28 13:43:57.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-appserver/pom.xml
+  detection_source: log4j-appserver/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-09-11 07:01:58.000000000 Z
+- name: Monit
+  description: A free, open-source process supervision tool
+  website_url: https://mmonit.com
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2986/MonitLogo.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-cassandra/pom.xml
+  detection_source: log4j-cassandra/pom.xml
+  last_updated_by: Mikael Ståldal
+  last_updated_on: 2017-10-16 20:01:28.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-10-06 19:03:50.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/src/main/resources/application.yml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/src/main/resources/application.yml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: ggregory
+  last_updated_on: 2016-03-09 08:42:41.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/Dockerfile
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/Dockerfile
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2
+  detection_source: Repo Metadata
+- name: xmlunit
+  website_url: https://www.xmlunit.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9143/no-img-open-source.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Mikael Ståldal
+  last_updated_on: 2016-08-30 12:57:50.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: com.datastax.cassandra:cassandra-driver-core
+  description: A driver for Apache Cassandra 1.2+ that works exclusively with the
+    Cassandra Query Language version 3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-cassandra/pom.xml
+  detection_source: log4j-cassandra/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-docker/pom.xml
+  detection_source: log4j-docker/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-api/pom.xml
+  detection_source: log4j-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-api/pom.xml
+  detection_source: log4j-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  description: Data format extension for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: com.fasterxml.woodstox:woodstox-core
+  description: Woodstox is a high-performance XML processor that implements Stax
+  version: 5.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service due to parser crash
+    cve_id: CVE-2022-40153
+    cve_url: https://github.com/advisories/GHSA-fv22-xp26-mm9w
+    detected_date: Oct 26
+    severity: high
+    first_patched: 5.4.0
+  - name: Denial of Service due to parser crash
+    cve_id: CVE-2022-40152
+    cve_url: https://github.com/advisories/GHSA-3f7h-mf4q-vrm4
+    detected_date: Oct 26
+    severity: moderate
+    first_patched: 5.4.0
+  - name: Denial of Service via stack overflow
+    cve_id: CVE-2022-40155
+    cve_url: https://github.com/advisories/GHSA-5hc5-c3m9-8vcj
+    detected_date: Oct 26
+    severity: low
+    first_patched: 5.4.0
+  - name: Denial of Service due to parser crash
+    cve_id: CVE-2022-40156
+    cve_url: https://github.com/advisories/GHSA-4rv7-wj6m-6c6r
+    detected_date: Oct 26
+    severity: low
+    first_patched: 5.4.0
+  - name: Denial of Service via stack overflow
+    cve_id: CVE-2022-40154
+    cve_url: https://github.com/advisories/GHSA-9fwf-46g9-45rx
+    detected_date: Oct 26
+    severity: low
+    first_patched: 5.4.0
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40151
+    cve_url: https://github.com/advisories/GHSA-3mq5-fq9h-gj7j
+    detected_date: Oct 27
+    severity: low
+    first_patched: 5.4.0
+- name: com.github.tomakehurst:wiremock
+  description: A web service test double for all occasions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-11 02:50:06.000000000 Z
+- name: com.lmax:disruptor
+  description: Disruptor - Concurrent Programming Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: com.sleepycat:je
+  description: Berkeley DB Java Edition is a open source, transactional storage solution
+    for Java applications
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-flume-ng/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: com.sun.mail:javax.mail
+  description: "${project.name}"
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-smtp/pom.xml
+  detection_source: log4j-smtp/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-07-20 00:19:25.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2015-06-13 22:05:56.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: io.fabric8:kubernetes-client
+  description: Java client for Kubernetes &amp; OpenShift
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-kubernetes/pom.xml
+  detection_source: log4j-kubernetes/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: javax.persistence:persistence-api
+  version: 1.0.2
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-perf/pom.xml
+  detection_source: log4j-perf/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-07-09 23:06:13.000000000 Z
+- name: javax.servlet.jsp:jsp-api
+  version: '2.1'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-taglib/pom.xml
+  detection_source: log4j-taglib/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2017-10-23 15:20:41.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  version: 3.0.1
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-appserver/pom.xml
+  detection_source: log4j-appserver/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: javax.servlet:servlet-api
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-samples/log4j-samples-flume-common/pom.xml
+  detection_source: log4j-samples/log4j-samples-flume-common/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2012-11-23 05:11:28.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2010-05-13 06:31:04.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  version: 1.2.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Log4j 1.2.x
+    cve_id: CVE-2022-23305
+    cve_url: https://github.com/advisories/GHSA-65fg-84f6-3jq3
+    detected_date: Jan 22
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Apache Log4j
+    cve_id: CVE-2022-23307
+    cve_url: https://github.com/advisories/GHSA-f7vh-qwp3-x37m
+    detected_date: Nov 26
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Log4j
+    cve_id: CVE-2019-17571
+    cve_url: https://github.com/advisories/GHSA-2qrg-x229-3v8q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Log4j 1.x
+    cve_id: CVE-2022-23302
+    cve_url: https://github.com/advisories/GHSA-w9p3-5cr8-m3jj
+    detected_date: Jan 22
+    severity: high
+    first_patched: 
+  - name: JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data
+    cve_id: CVE-2021-4104
+    cve_url: https://github.com/advisories/GHSA-fp5r-v3w9-4333
+    detected_date: Dec 15
+    severity: high
+    first_patched: 
+- name: net.javacrumbs.json-unit:json-unit
+  description: Contains basic assertJsonEquals
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: org.apache-extras.beanshell:bsh
+  description: BeanShell is a small, free, embeddable Java source interpreter with
+    object scripting language features, written in Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.apache.activemq:activemq-broker
+  description: The ActiveMQ Message Broker implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: org.apache.cassandra:cassandra-all
+  description: The Apache Cassandra Project develops a highly scalable second-generation
+    distributed database
+  version: 2.2.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-cassandra/pom.xml
+  detection_source: log4j-cassandra/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-29 20:03:17.000000000 Z
+  vulnerabilities:
+  - name: Apache Cassandra vulnerable to Code Injection due to unsafe configuration
+    cve_id: CVE-2021-44521
+    cve_url: https://github.com/advisories/GHSA-8ffc-79xg-29w8
+    detected_date: Feb 26
+    severity: critical
+    first_patched: 3.0.26
+  - name: Authentication Bypass in Apache Cassandra
+    cve_id: CVE-2020-17516
+    cve_url: https://github.com/advisories/GHSA-2vxm-vp4c-fjfw
+    detected_date: Feb 9
+    severity: high
+    first_patched: 3.0.24
+  - name: 'Apache Cassandra: Privilege escalation when enabling FQL/Audit logs'
+    cve_id: CVE-2023-30601
+    cve_url: https://github.com/advisories/GHSA-m9p2-j4hg-g373
+    detected_date: Jul 7
+    severity: high
+    first_patched: 4.0.10
+  - name: Man-in-the-middle attack in Apache Cassandra
+    cve_id: CVE-2020-13946
+    cve_url: https://github.com/advisories/GHSA-24ww-mc5x-xc43
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.2.18
+- name: org.apache.commons:commons-compress
+  description: Apache Commons Compress software defines an API for working with compression
+    and archive formats
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.apache.commons:commons-csv
+  description: The Apache Commons CSV library provides a simple interface for reading
+    and writing CSV files of various types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-csv/pom.xml
+  detection_source: log4j-csv/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-28 23:50:39.000000000 Z
+- name: org.apache.commons:commons-dbcp2
+  description: Apache Commons DBCP software implements Database Connection Pooling
+  version: 2.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-jdbc-dbcp2/pom.xml
+  detection_source: log4j-jdbc-dbcp2/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-04-08 00:46:20.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-api/pom.xml
+  detection_source: log4j-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-12-28 20:33:48.000000000 Z
+- name: org.apache.felix:org.apache.felix.framework
+  description: Apache Felix is a community effort to implement the OSGi Framework
+    and Service platform and other interesting OSGi-related technologies
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.apache.flume:flume-ng-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-flume-ng/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.apache.flume:flume-ng-sdk
+  description: 'Flume Software Development Kit: Stable public API for integration
+    with Flume 1.x'
+  version: 1.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.apache.hadoop:hadoop-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-flume-ng/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.apache.kafka:kafka-clients
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-kafka/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-28 19:54:02.000000000 Z
+  vulnerabilities:
+  - name: Observable Discrepancy in Apache Kafka
+    cve_id: CVE-2021-38153
+    cve_url: https://github.com/advisories/GHSA-3j6g-hxx5-3q26
+    detected_date: Sep 6
+    severity: moderate
+    first_patched: 2.6.3
+- name: org.apache.logging.log4j:log4j-1.2-api
+  description: The Apache Log4j 1.x Compatibility API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-distribution/pom.xml
+  detection_source: log4j-distribution/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-23 19:59:07.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-08-14 03:04:33.000000000 Z
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-08-14 03:04:33.000000000 Z
+- name: org.apache.logging.log4j:log4j-jcl
+  description: Log4j 2.0 Commons Logging Adapter
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-distribution/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-23 19:59:07.000000000 Z
+- name: org.apache.logging.log4j:log4j-jul
+  description: The Apache Log4j implementation of java.util.logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-distribution/pom.xml
+  detection_source: log4j-distribution/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-23 19:59:07.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  detection_source: log4j-cassandra/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2018-02-17 23:33:38.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j18-impl
+  description: The Apache Log4j SLF4J 1.8 API binding to Log4j 2 Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-distribution/pom.xml
+  detection_source: log4j-distribution/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-23 19:59:07.000000000 Z
+- name: org.apache.logging.log4j:log4j-to-slf4j
+  description: Binding between LOG4J 2 API and SLF4J
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-slf4j-impl/pom.xml
+  detection_source: log4j-distribution/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-23 19:59:07.000000000 Z
+- name: org.apache.logging.log4j:log4j-web
+  description: Apache Log4j Adapters for Web Applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-distribution/pom.xml
+  detection_source: log4j-distribution/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-06-23 19:59:07.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-api-java9/pom.xml
+  detection_source: log4j-api-java9/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-06-18 17:40:53.000000000 Z
+- name: org.apache.tomcat:tomcat-catalina
+  description: Tomcat Servlet Engine Core Classes and Standard implementations
+  version: 8.5.20
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-appserver/pom.xml
+  detection_source: log4j-appserver/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2017-11-11 01:25:47.000000000 Z
+  vulnerabilities:
+  - name: Potential remote code execution in Apache Tomcat
+    cve_id: CVE-2020-9484
+    cve_url: https://github.com/advisories/GHSA-344f-f5vg-2jfj
+    detected_date: Sep 27
+    severity: high
+    first_patched: 8.5.55
+  - name: Apache Tomcat Improper Input Validation vulnerability
+    cve_id: CVE-2023-46589
+    cve_url: https://github.com/advisories/GHSA-fccv-jmmp-qg76
+    detected_date: Nov 29
+    severity: high
+    first_patched: 8.5.96
+  - name: Apache Tomcat vulnerable to Unprotected Transport of Credentials
+    cve_id: CVE-2023-28708
+    cve_url: https://github.com/advisories/GHSA-2c9m-w27f-53rm
+    detected_date: Mar 23
+    severity: moderate
+    first_patched: 8.5.86
+- name: org.apache.velocity:velocity
+  description: Apache Velocity is a general purpose template engine
+  version: '1.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-1.2-api/pom.xml
+  detection_source: log4j-1.2-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+  vulnerabilities:
+  - name: Sandbox Bypass in Apache Velocity Engine
+    cve_id: CVE-2020-13936
+    cve_url: https://github.com/advisories/GHSA-59j4-wjwp-mw9m
+    detected_date: Jan 28
+    severity: high
+    first_patched: 
+- name: org.codehaus.groovy:groovy-dateutil
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.codehaus.groovy:groovy-jsr223
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.codehaus.jackson:jackson-core-asl
+  description: Jackson is a high-performance JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-flume-ng/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.codehaus.jackson:jackson-mapper-asl
+  description: Data Mapper package is a high-performance data binding package built
+    on Jackson JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-flume-ng/pom.xml
+  detection_source: log4j-flume-ng/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.codehaus.plexus:plexus-utils
+  description: A collection of various utility classes to ease working with strings
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.eclipse.jetty:jetty-util
+  description: Utility classes for Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-appserver/pom.xml
+  detection_source: log4j-appserver/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2017-11-11 01:25:47.000000000 Z
+- name: org.eclipse.persistence:eclipselink
+  description: EclipseLink build based upon Git transaction 368d603
+  version: 2.5.2
+  license: EPL-1.0,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-perf/pom.xml
+  detection_source: log4j-perf/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-07-09 23:06:13.000000000 Z
+- name: org.eclipse.persistence:javax.persistence
+  description: EclipseLink build based upon Git transaction 39f248b
+  license: EPL-1.0,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-jpa/pom.xml
+  detection_source: log4j-jpa/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-03-09 19:20:28.000000000 Z
+- name: org.eclipse.persistence:org.eclipse.persistence.jpa
+  description: EclipseLink build based upon Git transaction 67768906cf
+  license: EPL-2.0,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-jpa/pom.xml
+  detection_source: log4j-jpa/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-03-09 19:20:28.000000000 Z
+- name: org.fusesource.jansi:jansi
+  description: Jansi is a java library for generating and interpreting ANSI escape
+    sequences
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: org.hdrhistogram:HdrHistogram
+  description: HdrHistogram supports the recording and analyzing sampled data value
+    counts across a configurable integer value range with configurable value precision
+    within the range
+  license: Unlicense,CC0-1.0,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.jctools:jctools-core
+  description: Java Concurrency Tools Core Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core-its/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: org.jmdns:jmdns
+  description: JmDNS is a Java implementation of multi-cast DNS and can be used for
+    service registration and discovery in local area networks
+  version: 3.5.3
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.liquibase:liquibase-core
+  description: Liquibase is a tool for managing and executing database changes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-liquibase/pom.xml
+  detection_source: log4j-liquibase/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-10-15 05:34:09.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-appserver/pom.xml
+  detection_source: log4j-appserver/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2017-11-11 01:25:47.000000000 Z
+- name: org.mongodb:bson
+  description: The BSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-mongodb3/pom.xml
+  detection_source: log4j-mongodb3/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-25 15:47:05.000000000 Z
+- name: org.mongodb:mongo-java-driver
+  description: The MongoDB Java driver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-mongodb2/pom.xml
+  detection_source: log4j-mongodb2/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-22 15:40:30.000000000 Z
+- name: org.mongodb:mongodb-driver
+  description: The MongoDB Driver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-mongodb3/pom.xml
+  detection_source: log4j-mongodb3/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-25 15:47:05.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  version: '1.21'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-perf/pom.xml
+  detection_source: log4j-perf/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-07-05 23:48:42.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  version: '1.21'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-perf/pom.xml
+  detection_source: log4j-perf/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-07-05 23:48:42.000000000 Z
+- name: org.osgi:org.osgi.core
+  description: OSGi Core Release 6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-api/pom.xml
+  detection_source: log4j-api/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-12-28 20:33:48.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-slf4j-impl/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+- name: org.slf4j:slf4j-ext
+  description: Extensions to the SLF4J API
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-slf4j-impl/pom.xml
+  detection_source: log4j-core-its/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-02-20 02:09:06.000000000 Z
+  vulnerabilities:
+  - name: Improper Access Control in SLF4J
+    cve_id: CVE-2018-8088
+    cve_url: https://github.com/advisories/GHSA-w77p-8cfg-2x43
+    detected_date: Jun 30
+    severity: critical
+    first_patched: 1.7.26
+- name: org.springframework.boot:spring-boot
+  description: Spring Boot
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-log4j2
+  description: Starter for using Log4j2 for logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-tomcat
+  description: Starter for using Tomcat as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.cloud:spring-cloud-bus
+  description: Spring Cloud Bus
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-client
+  description: "#&lt;Ox::CData:0x000055b4f0c4ebb8&gt;"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework.cloud:spring-cloud-config-server
+  description: Spring-cloud-config-server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-bus-amqp
+  description: Spring Cloud Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-application/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-10-28 18:03:18.000000000 Z
+- name: org.springframework.cloud:spring-cloud-starter-config
+  description: Spring Cloud Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-samples/log4j-spring-cloud-config-sample-server/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework.ws:spring-ws-core
+  description: Spring WS Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-samples/log4j-samples-flume-common/pom.xml
+  detection_source: log4j-samples/log4j-samples-flume-common/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-06-18 17:40:53.000000000 Z
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-samples/log4j-samples-flume-common/pom.xml
+  detection_source: log4j-samples/log4j-samples-flume-common/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-06-18 17:40:53.000000000 Z
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  detection_source: log4j-spring-cloud-config/log4j-spring-cloud-config-client/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2019-05-05 05:26:49.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-samples/log4j-samples-flume-common/pom.xml
+  detection_source: log4j-samples/log4j-samples-flume-common/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-06-18 17:40:53.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-appserver/pom.xml
+  detection_source: log4j-appserver/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2017-11-11 01:25:47.000000000 Z
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-samples/log4j-samples-flume-common/pom.xml
+  detection_source: log4j-samples/log4j-samples-flume-common/pom.xml
+  last_updated_by: Ralph Goers
+  last_updated_on: 2017-06-18 17:40:53.000000000 Z
+- name: org.tukaani:xz
+  description: XZ data compression
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.xmlunit:xmlunit-core
+  description: XMLUnit for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.xmlunit:xmlunit-matchers
+  description: XMLUnit for Java Hamcrest Matchers
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-core/pom.xml
+  detection_source: log4j-core/pom.xml
+  last_updated_by: Matt Sicker
+  last_updated_on: 2019-08-26 20:54:17.000000000 Z
+- name: org.zeromq:jeromq
+  description: Pure Java implementation of libzmq
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/logging-log4j2/blob/master/log4j-jeromq/pom.xml
+  detection_source: log4j-jeromq/pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2018-01-28 15:57:15.000000000 Z
