@@ -80,7 +80,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hakanai/logging-log4j2](https://github.com/hakanai/logging-log4j2)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|130<br/>Tools used|02/11/24 <br/>Report generated|
+|130<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -406,7 +406,7 @@ Full tech stack [here](/techstack.md)
 |[net.javacrumbs.json-unit:json-unit](https://github.com/lukas-krecan/JsonUnit)|N/A|02/17/18|Ralph Goers |Apache-2.0|N/A|
 |[org.apache-extras.beanshell:bsh](https://github.com/beanshell/beanshell/)|N/A|08/26/19|Matt Sicker |Apache-2.0|N/A|
 |[org.apache.activemq:activemq-broker]()|N/A|02/20/18|Gary Gregory |Apache-2.0|N/A|
-|[org.apache.cassandra:cassandra-all](https://cassandra.apache.org)|v2.2.8|01/29/18|Gary Gregory |Apache-2.0|[CVE-2021-44521](https://github.com/advisories/GHSA-8ffc-79xg-29w8) (Critical)<br/>[CVE-2020-17516](https://github.com/advisories/GHSA-2vxm-vp4c-fjfw) (High)<br/>[CVE-2023-30601](https://github.com/advisories/GHSA-m9p2-j4hg-g373) (High)<br/>[CVE-2020-13946](https://github.com/advisories/GHSA-24ww-mc5x-xc43) (Moderate)|
+|[org.apache.cassandra:cassandra-all](https://cassandra.apache.org)|v2.2.8|01/29/18|Gary Gregory |Apache-2.0|[CVE-2021-44521](https://github.com/advisories/GHSA-8ffc-79xg-29w8) (Critical)<br/>[CVE-2020-17516](https://github.com/advisories/GHSA-2vxm-vp4c-fjfw) (High)<br/>[CVE-2020-13946](https://github.com/advisories/GHSA-24ww-mc5x-xc43) (Moderate)|
 |[org.apache.commons:commons-compress](https://commons.apache.org/proper/commons-compress/)|N/A|08/26/19|Matt Sicker |Apache-2.0|N/A|
 |[org.apache.commons:commons-csv](http://commons.apache.org/proper/commons-csv/)|N/A|01/28/18|Gary Gregory |Apache-2.0|N/A|
 |[org.apache.commons:commons-dbcp2](http://commons.apache.org/proper/commons-dbcp/)|v2.5.0|04/08/18|Ralph Goers |Apache-2.0|N/A|
@@ -426,7 +426,7 @@ Full tech stack [here](/techstack.md)
 |[org.apache.logging.log4j:log4j-to-slf4j]()|v3.0.0|06/23/19|Ralph Goers |Apache-2.0|N/A|
 |[org.apache.logging.log4j:log4j-web]()|N/A|06/23/19|Ralph Goers |Apache-2.0|N/A|
 |[org.apache.maven:maven-core](https://maven.apache.org/ref/3.6.1/)|N/A|06/18/17|Ralph Goers |Apache-2.0|N/A|
-|[org.apache.tomcat:tomcat-catalina](https://tomcat.apache.org/)|v8.5.20|11/11/17|Gary Gregory |Apache-2.0|[CVE-2020-9484](https://github.com/advisories/GHSA-344f-f5vg-2jfj) (High)<br/>[CVE-2023-46589](https://github.com/advisories/GHSA-fccv-jmmp-qg76) (High)<br/>[CVE-2023-28708](https://github.com/advisories/GHSA-2c9m-w27f-53rm) (Moderate)|
+|[org.apache.tomcat:tomcat-catalina](https://tomcat.apache.org/)|v8.5.20|11/11/17|Gary Gregory |Apache-2.0|[CVE-2023-46589](https://github.com/advisories/GHSA-fccv-jmmp-qg76) (High)<br/>[CVE-2020-9484](https://github.com/advisories/GHSA-344f-f5vg-2jfj) (High)<br/>[CVE-2023-28708](https://github.com/advisories/GHSA-2c9m-w27f-53rm) (Moderate)|
 |[org.apache.velocity:velocity](http://velocity.apache.org/engine/devel/)|v1.7|10/15/17|Ralph Goers |Apache-2.0|[CVE-2020-13936](https://github.com/advisories/GHSA-59j4-wjwp-mw9m) (High)|
 |[org.codehaus.groovy:groovy-dateutil](https://groovy-lang.org)|N/A|08/26/19|Matt Sicker |Apache-2.0|N/A|
 |[org.codehaus.groovy:groovy-jsr223](https://groovy-lang.org)|N/A|08/26/19|Matt Sicker |Apache-2.0|N/A|
