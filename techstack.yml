@@ -2,7 +2,7 @@ repo_name: hakanai/logging-log4j2
 report_id: 45c42d1d52e23952399c68c768f78c0c
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-11T01:38:15+00:00'
+timestamp: '2024-02-29T20:00:04+00:00'
 requested_by: rgoers
 provider: github
 branch: master
@@ -830,12 +830,6 @@ tools:
     detected_date: Feb 9
     severity: high
     first_patched: 3.0.24
-  - name: 'Apache Cassandra: Privilege escalation when enabling FQL/Audit logs'
-    cve_id: CVE-2023-30601
-    cve_url: https://github.com/advisories/GHSA-m9p2-j4hg-g373
-    detected_date: Jul 7
-    severity: high
-    first_patched: 4.0.10
   - name: Man-in-the-middle attack in Apache Cassandra
     cve_id: CVE-2020-13946
     cve_url: https://github.com/advisories/GHSA-24ww-mc5x-xc43
@@ -1100,18 +1094,18 @@ tools:
   last_updated_by: Gary Gregory
   last_updated_on: 2017-11-11 01:25:47.000000000 Z
   vulnerabilities:
-  - name: Potential remote code execution in Apache Tomcat
-    cve_id: CVE-2020-9484
-    cve_url: https://github.com/advisories/GHSA-344f-f5vg-2jfj
-    detected_date: Sep 27
-    severity: high
-    first_patched: 8.5.55
   - name: Apache Tomcat Improper Input Validation vulnerability
     cve_id: CVE-2023-46589
     cve_url: https://github.com/advisories/GHSA-fccv-jmmp-qg76
     detected_date: Nov 29
     severity: high
     first_patched: 8.5.96
+  - name: Potential remote code execution in Apache Tomcat
+    cve_id: CVE-2020-9484
+    cve_url: https://github.com/advisories/GHSA-344f-f5vg-2jfj
+    detected_date: Sep 27
+    severity: high
+    first_patched: 8.5.55
   - name: Apache Tomcat vulnerable to Unprotected Transport of Credentials
     cve_id: CVE-2023-28708
     cve_url: https://github.com/advisories/GHSA-2c9m-w27f-53rm
